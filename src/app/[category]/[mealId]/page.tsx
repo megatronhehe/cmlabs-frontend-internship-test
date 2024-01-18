@@ -8,8 +8,6 @@ export default async function page({
 }) {
 	const meal = await getMealDetails(params.mealId);
 
-	console.log(meal);
-
 	const { strMeal } = meal;
 
 	return (

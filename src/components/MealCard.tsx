@@ -28,7 +28,7 @@ export default function MealCard({ meal }: { meal: Meal }) {
 				alt={`thumbnail picture of ${strMeal} meal`}
 				style={{ width: "auto", height: "auto" }}
 			/>
-			<div className="absolute w-full h-full flex items-center justify-center bg-opacity-45 bg-black text-white font-bold">
+			<div className="absolute w-full h-full flex items-center justify-center  bg-black text-white font-bold">
 				<h1>{strMeal}</h1>
 			</div>
 		</Link>
