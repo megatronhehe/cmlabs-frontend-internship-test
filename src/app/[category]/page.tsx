@@ -1,4 +1,5 @@
 import MealsList from "@/components/MealsList";
+import MealsSkeleton from "@/components/skeletons/MealsSkeleton";
 import React, { Suspense } from "react";
 
 export default async function page({
@@ -16,7 +17,7 @@ export default async function page({
 				</div>
 			</div>
 
-			<Suspense fallback={<>Loading...</>}>
+			<Suspense fallback={<MealsSkeleton />}>
 				<MealsList categoryName={categoryName} />
 			</Suspense>
 		</main>

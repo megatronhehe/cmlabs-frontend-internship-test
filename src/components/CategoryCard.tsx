@@ -28,7 +28,7 @@ export default function CategoryCard({ category }: CategoryCardProps) {
 				className="group-hover:scale-110 duration-200"
 				style={{ width: "auto", height: "auto" }}
 			/>
-			<div className="absolute w-full h-full flex items-center justify-center duration-200 group-hover:bg-opacity-45 bg-opacity-30 bg-black text-white font-bold">
+			<div className="absolute text-center w-full h-full flex items-center justify-center duration-200 group-hover:bg-opacity-45 bg-opacity-30 bg-black text-white font-bold">
 				<h1>{strCategory}</h1>
 			</div>
 		</Link>
